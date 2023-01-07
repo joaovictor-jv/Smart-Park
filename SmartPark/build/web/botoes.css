@@ -1,0 +1,17 @@
+#botaoEntrada{
+    border-radius:5px;
+    width: 108px;
+}
+#botaoSaida{
+    border-radius:5px;
+    width: 108px;
+}
+#botaoSalvar{
+    border-radius: 5px;
+    width: 435px;
+}
+
+#fotoAbertura{
+    width:1190px;
+    height: 375px;
+}

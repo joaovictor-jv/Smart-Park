@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Usuario</title>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <form method="post" action="Controle">
+            <input type="hidden" name="flag" value="cadUsu">
+            <p>
+                <label for="nomeUsu">Nome do Usuário:</label>
+                <input type="text" size="45" maxlength="45" name="nomeUsu" id="nomeUsu" required>
+            </p>
+            <p>
+                <label for="emailUsu">Email do Usuário:</label>
+                <input type="text" size="45" maxlength="45" name="emailUsu" id="emailUsu" required>
+            </p>
+            <p>
+                <label for="senhaUsu">Senha:</label>
+                <input type="password" size="45" maxlength="45" name="senhaUsu" id="senhaUsu">
+            </p>
+            <p>
+                <label for="celularUsu">Celular:</label>
+                <input type="text" size="15" maxlength="15" name="celularUsu" id="celularUsu">
+            </p>
+            <p>
+                <input type="submit" value="Salvar">
+            </p>
+
+        </form>
+
+    </body>
+</html>

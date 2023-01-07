@@ -1,0 +1,48 @@
+div.menu{
+    display: inline-block; /* Um à direita do outro */
+    margin-left: 30px;
+}
+
+div.submenu{
+    display: none; /* Para o submenu aparecer oculto */
+    position: absolute;
+    box-shadow: 5px 8px 10px 0px #000000;
+    width: 175px;
+    border: solid #c0c0c0 1px;
+    padding: 5px;
+    z-index: 1;
+    background-color: #ffffff
+}
+
+div.menu:hover div.submenu{
+    display: block
+}
+
+div.submenu a{
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #000000
+}
+
+div.submenu a:hover{
+    background-color:#4376A9;
+    color: #ffffff;
+}
+
+button.botao{
+    height: 30px;
+    border: 0px;
+    background-color: #4376A9;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+div.menu:hover button.botao{
+    background-color: #235689 
+}
+
+#home{
+    text-decoration: none;
+    color: #ffffff;
+}
