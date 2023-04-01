@@ -27,3 +27,8 @@ Nosso projeto foi desenvolvido para ajudar no gerenciamento de estacionamento, n
 permite o usuário fazer o cadastro da entrada e saída dos clientes e atráves da permanencia
 será calculado o quanto deve ser pago.
 </p>
+
+<h4 align="center">Tecnologias:</h4>
+<p align="center">
+ • HTML • CSS • Java • JPA • MySQL
+</p>
